@@ -17,7 +17,7 @@ h1 {
 /* Table styling */
 table {
     border-collapse: collapse;
-    width: 60%;
+    width: 100%;
     margin: 0 auto; /* Center the table horizontally */
 }
 
@@ -36,4 +36,13 @@ th {
 
 td {
     font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
